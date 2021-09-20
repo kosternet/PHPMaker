@@ -1,0 +1,676 @@
+<?xml version="1.0"?>
+<ew-language date="2021/09/20" version="18.2.0" id="nl-NL" name="Nederlands" desc="Nederlands" author="Geert Koster">
+<!--
+    IMPORTANT NOTES:
+    1. Language ID must be RFC 4646 language tags (which use hyphen, not underscore), e.g. en-US, fr-CA, fr-FR,
+    2. Requires PHP Internationalization extension (Intl), see https://www.php.net/manual/en/book.intl.php,
+    3. Locale files are NOT used unless you save customized settings of a locale in the project.
+-->
+<global>
+    <phrase id="&gt;" value="&amp;gt;"/>
+    <phrase id="&gt;=" value="&amp;gt;="/>
+    <phrase id="&lt;" value="&amp;lt;"/>
+    <phrase id="&lt;&gt;" value="&amp;lt;&amp;gt;"/>
+    <phrase id="&lt;=" value="&amp;lt;="/>
+    <phrase id="2FADisabled" value="Twee factor authenticatie uitgeschakeld" client="1"/><!-- v2022 -->
+    <phrase id="2FAEnabled" value="Twee factor authenticatie ingeschakeld" client="1"/><!-- v2022 -->
+    <phrase id="2FAResetFailed" value="Uitgschakelen van twee factor authenticatie mislukt" client="1"/><!-- v2022 -->
+    <phrase id="2FAVerificationFailed" value="Twee factor authenticatie verificatie mislukt" client="1"/><!-- v2022 -->
+    <phrase id="&lt;&gt;" value="&amp;lt;&amp;gt;"/>
+    <phrase id="&lt;" value="&amp;lt;"/>
+    <phrase id="&lt;=" value="&amp;lt;="/>
+    <phrase id="&gt;" value="&amp;gt;"/>
+    <phrase id="&gt;=" value="&amp;gt;="/>
+    <phrase id="=" value="&amp;nbsp;"/><!-- v12 -->
+    <phrase id="AM" value="AM" client="1"/><!-- v2017 -->
+    <phrase id="AND" value="en"/>
+    <phrase id="Accept" value="Aanvaarden"/><!-- v2019 -->
+    <phrase id="ActionDeleted" value="Verwijderd"/>
+    <phrase id="ActionInserted" value="Ingevoegd"/>
+    <phrase id="ActionInsertedGridAdd" value="Ingevoegd (rooster-toevoegen)"/>
+    <phrase id="ActionUpdated" value="bijgewerkt"/>
+    <phrase id="ActionUpdatedGridEdit" value="Bijgewerkt (Grid-Edit))"/>
+    <phrase id="ActionUpdatedMultiUpdate" value="Bijgewerkt (Multi-update)"/>
+    <phrase id="ActivateAccount" value="Uw account is geactiveerd"/>
+    <phrase id="ActivateFailed" value="Activatie mislukt"/>
+    <phrase id="Add" value="Toevoegen"/>
+    <phrase id="AddBlankRow" value="Voeg lege rij toe" class="fas fa-plus ew-icon"/><!-- v2019 -->
+    <phrase id="AddBtn" value="Toevoegen" client="1"/><!-- v2018 -->
+    <phrase id="AddLink" value="Toevoegen" class="fas fa-plus ew-icon"/><!-- v2019 -->
+    <phrase id="AddMasterDetailLink" value="Hoofd / Detail toevoegen" class="icon-md-add ew-icon"/><!-- v11 -->
+    <phrase id="AddSuccess" value="Toevoegen geslaagd"/>
+    <phrase id="AdvancedSearch" value="geavanceerd zoeken"/><!-- v11 -->
+    <phrase id="AdvancedSearchBtn" value="geavanceerd zoeken" class="icon-advanced-search ew-icon"/><!-- v11 -->
+    <phrase id="AggregateColon" value=": "/><!-- v2020 -->
+    <phrase id="AggregateEqual" value="="/><!-- v2020 -->
+    <phrase id="AllRecords" value="Alles"/>
+    <phrase id="AllWord" value="Alle woorden"/>
+    <phrase id="AlwaysAsk" value="Vraag altijd om mijn gebruikersnaam en wachtwoord"/><!-- Deprecated since v2018 -->
+    <phrase id="AnyWord" value="Elk woord"/>
+    <phrase id="ApiTitle" value="REST API"/><!-- v2021 -->
+    <phrase id="AuditTrailAutoLogin" value="autologin"/>
+    <phrase id="AuditTrailFailedAttempt" value="mislukte poging: %n"/>
+    <phrase id="AuditTrailLogin" value="login"/>
+    <phrase id="AuditTrailLogout" value="logout"/>
+    <phrase id="AuditTrailPasswordExpired" value="wachtwoord verlopen"/>
+    <phrase id="AuditTrailUserLoggedIn" value="gebruiker is al ingelogd"/>
+    <phrase id="AutoLogin" value="Auto login totdat ik me expliciet afmeld"/><!-- Deprecated since v2018 -->
+    <phrase id="AutoLoginFailed" value="Auto inloggen mislukt"/><!-- v2018 -->
+    <phrase id="Average" value="Gemiddelde"/>
+    <phrase id="BETWEEN" value="tussen"/>
+    <phrase id="BackToList" value="Terug naar lijst"/>
+    <phrase id="BackToLogin" value="Terug naar inlogpagina"/>
+    <phrase id="BackToMasterRecordPage" value="Terug naar hoofdtabel"/>
+    <phrase id="BackupCodes" value="Backup codes (2FA)" client="1"/><!-- v2022 -->
+    <phrase id="BackupCodesMsg" value="Sla jouw backup codes ergens veilig op. Je kunt elke code maar één maal gebruiken." client="1"/><!-- v2022 -->
+    <phrase id="BatchDeleteBegin" value="*** BBatch verwijderen begint "/>
+    <phrase id="BatchDeleteRollback" value=" Batch verwijderen terugdraaien "/>
+    <phrase id="BatchDeleteSuccess" value=" Batch verwijderen gelukt "/>
+    <phrase id="BatchInsertBegin" value=" Batch invoegen begin "/>
+    <phrase id="BatchInsertRollback" value=" Batch invoegen terugdraaien "/>
+    <phrase id="BatchInsertSuccess" value=" Batch invoegen geslaagd "/>
+    <phrase id="BatchUpdateBegin" value=" Batch update start "/>
+    <phrase id="BatchUpdateRollback" value=" Batch update terugdraaien "/>
+    <phrase id="BatchUpdateSuccess" value=" Batch update geslaagd "/>
+    <phrase id="BlankOptionText" value="&amp;nbsp;"/><!-- v2022 -->
+    <phrase id="BooleanNo" value="Nee"/><!-- v2020 -->
+    <phrase id="BooleanYes" value="Ja"/><!-- v2020 -->
+    <phrase id="ButtonActions" value="acties" class="icon-options ew-icon"/><!-- v11 -->
+    <phrase id="ButtonAddEdit" value="Toevoegen / Bewerken" class="icon-addedit ew-icon"/><!-- v11 -->
+    <phrase id="ButtonDetails" value="Master/Detail" class="icon-master-detail ew-icon"/><!-- v11 -->
+    <phrase id="ButtonExport" value="Export" class="fas fa-download ew-icon"/><!-- v2019 -->
+    <phrase id="ButtonImport" value="Import" class="fas fa-upload ew-icon"/><!-- v2019 -->
+    <phrase id="ButtonListOptions" value="Opties" class="icon-options ew-icon"/><!-- v11 -->
+    <phrase id="ButtonListOptionsCard" value="Opties" class="fas fa-ellipsis-v ew-icon"/><!-- v2022 -->
+    <phrase id="ButtonSearch" value="Zoek" class="icon-search ew-icon"/><!-- v11 -->
+    <phrase id="CancelBtn" value="annuleren" client="1"/><!-- v2017 -->
+    <phrase id="CancelLink" value="annuleren" class="fas fa-times ew-icon"/><!-- v2019 -->
+    <phrase id="ChangePassword" value="Wijzig wachtwoord" client="1"/><!-- v2020 -->
+    <phrase id="ChangePasswordBtn" value="Wijzig"/>
+    <phrase id="ChangePasswordMessage" value="Wijzig wachtwoord"/><!-- v2019 -->
+    <phrase id="ChangePasswordPage" value="Wachtwoord wijzigen"/>
+    <phrase id="ChangePwd" value="Wijzig wachtwoord"/>
+    <phrase id="ChangePwdBtn" value="Wijzig"/>
+    <phrase id="ChangePwdMsg" value="Wijzig wachtwoord"/><!-- v2019 -->
+    <phrase id="ChangePwdPage" value="Wijzig wachtwoord"/>
+    <phrase id="ChartExportErrMsg1" value="Kan afbeelding %t van %e niet krijgen."/><!-- v2021 -->
+    <phrase id="ChartExportErrMsg2" value="Ontbrekende bestandsnaam."/><!-- v2021 -->
+    <phrase id="ChartExportErrMsg3" value="Upload folder bestaat niet."/><!-- v2021 -->
+    <phrase id="ChartExportErrMsg4" value="Upload folder kan niet geschreven worden."/><!-- v2021 -->
+    <phrase id="ChartOrder" value="Sorteer op"/><!-- v2020 -->
+    <phrase id="ChartOrderXAsc" value="Labels Oplopend"/><!-- v2020 -->
+    <phrase id="ChartOrderXDesc" value="Labels aflopend"/><!-- v2020 -->
+    <phrase id="ChartOrderYAsc" value="Waardes oplopend"/><!-- v2020 -->
+    <phrase id="ChartOrderYDesc" value="Waardes aflopend"/><!-- v2020 -->
+    <phrase id="ChooseFile" value="Laat bestand hier los of klik voor upload"/><!-- v2022 -->
+    <phrase id="ChooseFileBtn" value="Kies..."/><!-- v11 -->
+    <phrase id="ChooseFiles" value="Laat bestanden hier los of klik voor upload"/><!-- v2022 -->
+    <phrase id="ChooseFiles" value="Kies bestanden"/><!-- v11 -->
+    <phrase id="Clear" value="Opschonen"/><!-- v2022 -->
+    <phrase id="ClickReCaptcha" value="Klik op reCAPTCHA" client="1"/><!-- v12 -->
+    <phrase id="ClickToDrillDown" value="Klik om te openen"/><!-- v2020 -->
+    <phrase id="CloseAccountBtn" value="Gegevens verwijderen en mijn account sluiten"/><!-- v2019 -->
+    <phrase id="CloseBtn" value="Sluit" client="1"/><!-- v2017 -->
+    <phrase id="Columns" value="Kolommen" class="fas fa-columns ew-icon"/><!-- v2022 -->
+    <phrase id="Confirm" value="Bevestig"/>
+    <phrase id="ConfirmBtn" value="Bevestig" client="1"/><!-- v2017 -->
+    <phrase id="ConfirmCancel" value="Wil je annuleren?" client="1"/><!-- v12 -->
+    <phrase id="ConfirmPassword" value="Bevestig wachtwoord"/>
+    <phrase id="ConflictCancelLink" value="Annuleer"/>
+    <phrase id="CookieConsentSummary" value="Gebruik deze ruimte om uw privacy- en cookiegebruiksbeleid samen te vatten."/><!-- v2019 -->
+    <phrase id="CookieConsentTitle" value="Cookies" client="1"/><!-- v2021 -->
+    <phrase id="CopiedToClipboard" value="Naar kladblok gekopieerd" client="1"/><!-- v2022 -->
+    <phrase id="Copy" value="Kopiëren"/>
+    <phrase id="CopyLink" value="Kopiëren" class="icon-copy ew-icon"/><!-- v11 -->
+    <phrase id="CopyToClipboard" value="Naar kladblok kopiëren" client="1"/><!-- v2022 -->
+    <phrase id="Count" value="Tel"/>
+    <phrase id="CountSelected" value="%s gekozen" client="1"/><!-- v12 -->
+    <phrase id="CtbSumHead" value="Samenvatting"/><!-- v2020 -->
+    <phrase id="CurrentFilters" value="Huidige filters:"/><!-- v2020 -->
+    <phrase id="CurrentPassword" value="Huidig ​​wachtwoord: " client="1"/><!-- v12 -->
+    <phrase id="CustomActionCancelled" value="'%s' geannuleerd"/>
+    <phrase id="CustomActionCompleted" value="'%s' voltooid"/>
+    <phrase id="CustomActionFailed" value="'%s' mislukt"/><!-- v12 -->
+    <phrase id="CustomActionNotAllowed" value="'%s' niet toegestaan"/><!-- v12 -->
+    <phrase id="CustomView" value="CUSTOM VIEW"/>
+    <phrase id="Danger" value="Error" client="1"/><!-- v2020 -->
+    <phrase id="Debug" value="Debug"/><!-- v2021 -->
+    <phrase id="Delete" value="Verwijder"/>
+    <phrase id="DeleteBtn" value="Verwijder"/>
+    <phrase id="DeleteCancelled" value="Verwijderen geannuleerd"/>
+    <phrase id="DeleteConfirmMsg" value="Weet je zeker dat je wilt verwijderen?" client="1"/>
+    <phrase id="DeleteFilter" value="Verwijder filter"/><!-- v12 -->
+    <phrase id="DeleteFilterConfirm" value="Verwijder filter %s?" client="1"/><!-- v12 -->
+    <phrase id="DeleteLink" value="Verwijder" class="fas fa-trash ew-icon"/><!-- v2019 -->
+    <phrase id="DeleteSelectedLink" value="Verwijder geselecteerde koppelingen" class="fas fa-trash ew-icon"/><!-- v2019 -->
+    <phrase id="DeleteSomeRecordsFailed" value="Verwijderen mislukt voor records met sleutels: %k"/><!-- v2022 -->
+    <phrase id="DeleteSuccess" value="Verwijderen geslaagd"/>
+    <phrase id="DetailCount" value="&lt;span class='badge bg-primary ew-detail-count-%c'&gt;%c&lt;/span&gt;"/><!-- v2022 -->
+    <phrase id="DetailLink" value=""/>
+    <phrase id="Details" value="Details" client="1"/><!-- v2022 -->
+    <phrase id="Disable2FA" value="2Factor Authenticatie uitschakelen"/><!-- v2022 -->
+    <phrase id="Disable2FAMsg" value="Weet je zeker dat je 2Factor Authenticatie wilt uitschakelen?" client="1"/><!-- v2022 -->
+    <phrase id="DisableNotifications" value="Meldingen uitschakelen" client="1"/><!-- v2022 -->
+    <phrase id="DisableNotificationsMsg" value="Weet je zeker dat je meldingen uit wilt schakelen?" client="1"/><!-- v2022 -->
+    <phrase id="DownloadBtn" value="Download"/><!-- v2019 -->
+    <phrase id="DrillDownAllRecords" value="Alle records"/><!-- v2020 -->
+    <phrase id="DrillDownFilters" value="Drill down filters:"/><!-- v2020 -->
+    <phrase id="DupIndex" value="Dubbele waarde '%v' for unique index '%f'"/>
+    <phrase id="DupKey" value="Dubbele primaire sleutel: '%f'"/>
+    <phrase id="ENDS WITH" value="eindigt met"/>
+    <phrase id="EQUAL" value="="/><!-- v12 -->
+    <phrase id="Edit" value="Bewerk"/>
+    <phrase id="EditBtn" value="Bewerk" client="1"/><!-- v2018 -->
+    <phrase id="EditLink" value="Bewerk" class="icon-edit ew-icon"/><!-- v11 -->
+    <phrase id="Email" value="Email" client="1"/><!-- v2021 -->
+    <phrase id="EmailFormBcc" value="Bcc"/>
+    <phrase id="EmailFormCc" value="Cc"/>
+    <phrase id="EmailFormContentType" value="Verzend als"/>
+    <phrase id="EmailFormContentTypeHtml" value="HTML"/>
+    <phrase id="EmailFormContentTypeUrl" value="URL"/>
+    <phrase id="EmailFormMessage" value="Bericht"/>
+    <phrase id="EmailFormRecipient" value="Aan"/>
+    <phrase id="EmailFormSender" value="Van"/>
+    <phrase id="EmailFormSubject" value="Onderwerp"/>
+    <phrase id="EmptyLabel" value="(Leeg)"/><!-- v2020 -->
+    <phrase id="Enable2FA" value="2Factor Authenticatie inschakelen"/><!-- v2022 -->
+    <phrase id="EnableNotifications" value="Meldingen inschakelen" client="1"/><!-- v2022 -->
+    <phrase id="EnterFilterName" value="Voer de filternaam in" client="1"/><!-- v12 -->
+    <phrase id="EnterNewPassword" value="Voer een nieuw wachtwoord in" client="1"/>
+    <phrase id="EnterOldPassword" value="Voer alstublieft het bestaande wachtwoord in" client="1"/>
+    <phrase id="EnterPassword" value="Voer wachtwoord in alstublieft" client="1"/>
+    <phrase id="EnterProperBccEmail" value="Maximum aantal bcc e-mails is overschredenvan of e-mailadres is onjuist " client="1"/>
+    <phrase id="EnterProperCcEmail" value="Maximum aantal cc e-mails is overschreden of e-mailadres is onjuist " client="1"/>
+    <phrase id="EnterProperRecipientEmail" value="Overschrijding e-mailaantal van maximale ontvanger of e-mailadres onjuist" client="1"/>
+    <phrase id="EnterProperSenderEmail" value="Maximumaantal afzenders e-mail of e-mailadres is onjuist overschreden" client="1"/>
+    <phrase id="EnterPwd" value="Voer wachtwoord in alstublieft" client="1"/>
+    <phrase id="EnterRecipientEmail" value="Voer de e-mail van de ontvanger in" client="1"/>
+    <phrase id="EnterRequiredField" value="Voer het verplichte veld in - %s"/><!-- v11 -->
+    <phrase id="EnterSearchCriteria" value="Voer zoekcriteria in"/>
+    <phrase id="EnterSecurityCode" value="Voer de securitycode van de Google Authenticator (or backup code) in" client="1"/><!-- v2022 -->
+    <phrase id="EnterSenderEmail" value="Voer e-mail van afzender in" client="1"/>
+    <phrase id="EnterSubject" value="Voer onderwerp in" client="1"/>
+    <phrase id="EnterUid" value="Voer gebruiker ID in" client="1"/>
+    <phrase id="EnterUserName" value="Voer alstublieft gebruikersnaam in" client="1"/>
+    <phrase id="EnterValidEmail" value="Vul alstublieft een geldig e-mailadres in" client="1"/>
+    <phrase id="EnterValidateCode" value="Voer de getoonde validatiecode in" client="1"/><!-- v11 -->
+    <phrase id="EnterValue" value="Voer de waarde in" client="1"/><!-- v2021 -->
+    <phrase id="EnterValue2" value="Voer de tweede waarde in" client="1"/><!-- v2021 -->
+    <phrase id="Error" value="Fout"/><!-- v2021 -->
+    <phrase id="ExactPhrase" value="Exacte zin"/>
+    <phrase id="ExceedMaxEmailExport" value="Maximum aantal e-mailexporten overschreden. Probeer het later opnieuw"/>
+    <phrase id="ExceedMaxRetry" value="Overschrijding van het maximale aantal nieuwe pogingen om in te loggen. Account is vergrendeld. Probeer het opnieuw binnen %t minuten"/>
+    <phrase id="ExportChart" value="Exporteren grafiek: " client="1"/><!-- v2020 -->
+    <phrase id="ExportChartData" value="Exporteren grafiek gegevens" client="1"/><!-- v2020 -->
+    <phrase id="ExportChartError" value="Grafiek exporteren mislukt: " client="1"/><!-- v2020 -->
+    <phrase id="ExportClassNotFound" value="Exportklasse niet gevonden"/><!-- v2019 -->
+    <phrase id="ExportToCsv" value="Exporteer naar CSV" class="icon-csv ew-icon"/><!-- v11 -->
+    <phrase id="ExportToCsvText" value="CSV"/>
+    <phrase id="ExportToEmail" value="Email" class="icon-email ew-icon"/><!-- v11 -->
+    <phrase id="ExportToEmailText" value="Email" client="1"/>
+    <phrase id="ExportToExcel" value="Exporteer naar Excel" class="icon-excel ew-icon"/><!-- v11 -->
+    <phrase id="ExportToExcelText" value="Excel"/>
+    <phrase id="ExportToHtml" value="Exporteer naar HTML" class="icon-html ew-icon"/><!-- v11 -->
+    <phrase id="ExportToHtmlText" value="HTML"/>
+    <phrase id="ExportToPDF" value="Exporteer naar PDF" class="icon-pdf ew-icon"/><!-- v11 -->
+    <phrase id="ExportToPDFText" value="PDF"/>
+    <phrase id="ExportToPdf" value="Exporteer naar PDF" class="icon-pdf ew-icon"/><!-- v11 -->
+    <phrase id="ExportToPdfText" value="PDF"/>
+    <phrase id="ExportToPrintText" value="Printer vriendelijk"/><!-- v2022 -->
+    <phrase id="ExportToWord" value="Exporteer naar Word" class="icon-word ew-icon"/><!-- v11 -->
+    <phrase id="ExportToWordText" value="Word"/>
+    <phrase id="ExportToXml" value="Exporteer naar XML" class="icon-xml ew-icon"/><!-- v11 -->
+    <phrase id="ExportToXmlText" value="XML"/>
+    <phrase id="Exporting" value="Exporteren, een ogenblik geduld..." client="1"/><!-- v2018 -->
+    <phrase id="ExportingChart" value="Exporteren grafiek (%c van %t), even geduld..." client="1"/><!-- v2020 -->
+    <phrase id="FailedToExport" value="Kan niet exporteren" client="1"/><!-- v2018 -->
+    <phrase id="FailedToSendMail" value="Verzenden van e-mail mislukt. "/>
+    <phrase id="FieldName" value="Veldnaam"/>
+    <phrase id="FieldRequiredIndicator" class="fas fa-asterisk ew-required"/><!-- v2019 -->
+    <phrase id="FileNotFound" value="Bestand niet gevonden"/><!-- * characters need to be supported by TEMP_IMAGE_FONT * -->
+    <phrase id="Filter" value="Filter" class="fas fa-filter"/><!-- v2022 -->
+    <phrase id="FilterAllRecords" value="Alle records" client="1"/><!-- v2022 -->
+    <phrase id="FilterCancel" value="Annuleer" client="1"/><!-- v2022 -->
+    <phrase id="FilterName" value="Filter naam" client="1"/><!-- v12 -->
+    <phrase id="FilterNoValue" value="Geen waarde geselecteerd" client="1"/><!-- v2022 -->
+    <phrase id="FilterOK" value="OK" client="1"/><!-- v2022 -->
+    <phrase id="Filters" value="Filters" class="fas fa-filter ew-icon"/><!-- v2022 -->
+    <phrase id="ForgotPasswordResponse" value="U ontvangt binnenkort instructies voor wachtwoordherstel als uw e-mailadres is geregistreerd."/><!-- v2019 -->
+    <phrase id="ForgotPwd" value="Wachtwoord vergeten"/>
+    <phrase id="Future" value="Toekomst"/>
+    <phrase id="GeneratePassword" value="Genereer wachtwoord" class="fas fa-bolt ew-icon"/><!-- v2019 -->
+    <phrase id="GetNewCodes" value="Ontvang nieuwe codes" client="1"/><!-- v2022 -->
+    <phrase id="GoBack" value="Ga terug"/>
+    <phrase id="GridAddCancelled" value="Raster toevoegen geannuleerd"/><!-- v11 -->
+    <phrase id="GridAddLink" value="Grid Toevoegen" class="icon-grid-add ew-icon"/><!-- v11 -->
+    <phrase id="GridCancelLink" value="Annuleer" class="fas fa-times ew-icon"/><!-- v2019 -->
+    <phrase id="GridEditCancelled" value="Rasterbewerking geannuleerd"/><!-- v11 -->
+    <phrase id="GridEditLink" value="Raster wijzigen" class="icon-grid-edit ew-icon"/><!-- v11 -->
+    <phrase id="GridInsertLink" value="Invoegen" class="fas fa-check ew-icon"/><!-- v2019 -->
+    <phrase id="GridSaveLink" value="Bewaar" class="fas fa-check ew-icon"/><!-- v2019 -->
+    <phrase id="Group" value="Groepen"/><!-- v2020 -->
+    <phrase id="GroupsPerPage" value="Groepen per pagina"/><!-- v2020 -->
+    <phrase id="Highlight" value="Selecteer"/><!-- v11 -->
+    <phrase id="HighlightBtn" value="Selecteer" class="icon-highlight ew-icon"/><!-- v11 -->
+    <phrase id="HomePage" value="Home" class="fas fa-home ew-icon"/><!-- v2019 -->
+    <phrase id="IS NOT NULL" value="is niet nul"/>
+    <phrase id="IS NULL" value="is null"/>
+    <phrase id="Import" value="Importeren" class="fas fa-upload ew-icon"/><!-- v2019 -->
+    <phrase id="ImportBtn" value="Importeren"/><!-- v2019 -->
+    <phrase id="ImportMessageError1" value="Geimporteerd %c van %t records van %f (succes: %s, mislukt: %e)" client="1"/><!-- v2019 -->
+    <phrase id="ImportMessageError2" value=", fout: %e" client="1"/><!-- v2019 -->
+    <phrase id="ImportMessageError3" value="rij %i: %d" client="1"/><!-- v2019 -->
+    <phrase id="ImportMessageError4" value="log bestand: %l" client="1"/><!-- v2019 -->
+    <phrase id="ImportMessageIncorrectFileType" value="Onjuist bestandstype" client="1"/><!-- v2019 -->
+    <phrase id="ImportMessageInvalidFieldName" value="Ongeldige veldnaam: %f"/><!-- v2019 -->
+    <phrase id="ImportMessageInvalidFieldValue" value="Ongeldige veldwaarde (veldnaam %f): %v"/><!-- v2019 -->
+    <phrase id="ImportMessageInvalidFileExtension" value="Ongeldige bestandsextensie '%e'"/><!-- v2019 -->
+    <phrase id="ImportMessageMore" value="(%s more)" client="1"/><!-- v2019 -->
+    <phrase id="ImportMessageNoHeaderRow" value="Geen koprij voor importeren"/><!-- v2019 -->
+    <phrase id="ImportMessagePleaseSelect" value="Selecteer een bestand" client="1"/><!-- v2019 -->
+    <phrase id="ImportMessageProgress" value="Importeren %c van %t records van %f..." client="1"/><!-- v2019 -->
+    <phrase id="ImportMessageServerError" value="Server fout %s: %t" client="1"/><!-- v2019 -->
+    <phrase id="ImportMessageSuccess" value="Geimporteerd %c van %t records van %f succesvol" client="1"/><!-- v2019 -->
+    <phrase id="ImportMessageUploadComplete" value="Upload voltooid" client="1"/><!-- v2019 -->
+    <phrase id="ImportMessageUploadError" value="Uploaden mislukt %f: %s" client="1"/><!-- v2019 -->
+    <phrase id="ImportMessageUploadProgress" value="uploaden...(p%)" client="1"/><!-- v2019 -->
+    <phrase id="ImportText" value="Importeren" client="1"/><!-- v2019 -->
+    <phrase id="IncorrectCreditCard" value="Onjuist creditcardnummer"/>
+    <phrase id="IncorrectDate" value="Onjuiste datum (%s)"/>
+    <phrase id="IncorrectDateDMY" value="Onjuiste datum (dd%smm%syyyy)"/>
+    <phrase id="IncorrectDateMDY" value="Onjuiste datum (mm%sdd%syyyy)"/>
+    <phrase id="IncorrectDateYMD" value="Onjuiste datum (yyyy%smm%sdd)"/>
+    <phrase id="IncorrectEmail" value="Onjuiste email" client="1"/>
+    <phrase id="IncorrectField" value="Onjuiste veldwaarde" client="1"/>
+    <phrase id="IncorrectFloat" value="Onjuist decimaal getal" client="1"/>
+    <phrase id="IncorrectGUID" value="Onjuiste GUID" client="1"/>
+    <phrase id="IncorrectInteger" value="Onjuist heel getal" client="1"/>
+    <phrase id="IncorrectPhone" value="Onjuist telefoonnummer" client="1"/>
+    <phrase id="IncorrectRange" value="Het nummer moet tussen %1 en %2" client="1"/>
+    <phrase id="IncorrectRegExp" value="Reguliere expressie komt niet overeen" client="1"/>
+    <phrase id="IncorrectSSN" value="Onjuist sofi-nummer" client="1"/>
+    <phrase id="IncorrectSecurityCode" value="Onjuiste security code"/><!-- v2022 -->
+    <phrase id="IncorrectShortDateDMY" value="Onjuiste datum (dd%smm%syy)"/>
+    <phrase id="IncorrectShortDateMDY" value="Onjuiste datum (mm%sdd%syy)"/>
+    <phrase id="IncorrectShortDateYMD" value="Onjuiste datum (yy%smm%sdd)"/>
+    <phrase id="IncorrectTime" value="Incorrect time (%s)" client="1"/><!-- v2022 -->
+    <phrase id="IncorrectTime" value="Onjuiste tijd (%s))" client="1"/><!-- v2022 -->
+    <phrase id="IncorrectUrl" value="Onjuiste URL" client="1"/><!-- v2022 -->
+    <phrase id="IncorrectValidationCode" value="Onjuiste validatiecode. Voer nogmaals in." client="1"/><!-- v2021 -->
+    <phrase id="IncorrectZip" value="Onjuiste postcode" client="1"/>
+    <phrase id="Info" value="Informatie" client="1"/><!-- v2020 -->
+    <phrase id="InlineAddLink" value="Inline toevoegen" class="icon-inline-add ew-icon"/><!-- v11 -->
+    <phrase id="InlineCopyLink" value="Inline kopiëren" class="icon-inline-copy ew-icon"/><!-- v11 -->
+    <phrase id="InlineEditLink" value="Inline bewerken" class="icon-inline-edit ew-icon"/><!-- v11 -->
+    <phrase id="InsertCancelled" value="Invoegen geannuleerd"/>
+    <phrase id="InsertFailed" value="Invoegen mislukt" client="1"/>
+    <phrase id="InsertLink" value="Invoegen" class="fas fa-check ew-icon"/><!-- v2019 -->
+    <phrase id="InsertSuccess" value="Insert geslaagd"/>
+    <phrase id="InvalidDate" value="Ongeldige datum" client="1"/><!-- v2021 -->
+    <phrase id="InvalidEmail" value="Ongeldig e-mail"/>
+    <phrase id="InvalidField" value="Ongeldig veld"/>
+    <phrase id="InvalidKeyValue" value="Ongeldige sleutelwaarde"/>
+    <phrase id="InvalidNewPassword" value="Ongeldig nieuw wachtwoord"/>
+    <phrase id="InvalidParameter" value="Ongeldige parameter"/>
+    <phrase id="InvalidPassword" value="Ongeldig wachtwoord"/>
+    <phrase id="InvalidPasswordChars" value="Wachtwoord mag volgende tekens niet bevatten &amp;, &lt;, &gt;, &quot;, or &apos;" client="1"/><!-- v2021 -->
+    <phrase id="InvalidPostRequest" value="Ongeldig berichtverzoek"/><!-- v11 -->
+    <phrase id="InvalidRecord" value="Ongeldig record! Sleutel is nul" client="1"/>
+    <phrase id="InvalidUidPwd" value="Foute gebruikersnaam of wachtwoord"/>
+    <phrase id="InvalidUsernameChars" value="Gebruikersnaam mag volgende tekens niet bevatten &amp;, &lt;, &gt;, &quot;, or &apos;" client="1"/><!-- v2021 -->
+    <phrase id="Keep" value="Houden"/>
+    <phrase id="LIKE" value="bevat"/>
+    <phrase id="Language" value="Taal"/>
+    <phrase id="Last14Days" value="Laatste 14 dagen"/>
+    <phrase id="Last30Days" value="Laatste 30 dagen"/>
+    <phrase id="Last7Days" value="Laatste 7 dagen"/>
+    <phrase id="LastMonth" value="Laatste maand"/>
+    <phrase id="LastTwoWeeks" value="Laatste twee weken"/>
+    <phrase id="LastWeek" value="Laatste week"/>
+    <phrase id="LastYear" value="Laatste jaar"/>
+    <phrase id="LearnMore" value="Kom meer te weten"/><!-- v2019 -->
+    <phrase id="LightboxClose" value="sluiten" client="1"/><!-- v11 -->
+    <phrase id="LightboxCurrent" value="afbeelding {current} van {total}" client="1"/><!-- Note: DO NOT translate "{current}" and "{total}" --><!-- v11 -->
+    <phrase id="LightboxImgError" value="Deze afbeelding kan niet worden geladen." client="1"/><!-- v11 -->
+    <phrase id="LightboxNext" value="volgende" client="1"/><!-- v11 -->
+    <phrase id="LightboxPrevious" value="vorige" client="1"/><!-- v11 -->
+    <phrase id="LightboxTitle" value=" " client="1"/><!-- v11 -->
+    <phrase id="LightboxXhrError" value="Deze inhoud kan niet worden geladen." client="1"/><!-- v11 -->
+    <phrase id="List" value=""/><!-- v2019 -->
+    <phrase id="ListActionButton" value="Acties" class="fas fa-ellipsis-v"/><!-- v2020 -->
+    <phrase id="Loading" value="Laden..." client="1"/>
+    <phrase id="Login" value="Login" class="fas fa-sign-in-alt ew-icon" client="1"/><!-- v2022 -->
+    <phrase id="Login2FAPage" value="Login (2 Factor Authenticatie)"/><!-- v2022 -->
+    <phrase id="LoginCancelled" value="Login geannuleerd"/>
+    <phrase id="LoginFacebook" value="Login met Facebook"/><!-- v2018 -->
+    <phrase id="LoginFailed" value="Login met %p failed"/><!-- v2018 -->
+    <phrase id="LoginGoogle" value="Login met Google"/><!-- v2018 -->
+    <phrase id="LoginMsg" value="Meld u aan om uw sessie te starten"/><!-- v2019 -->
+    <phrase id="LoginOptions" value="opties"/><!-- v11 -->
+    <phrase id="LoginOr" value="- OF -"/><!-- v2018 -->
+    <phrase id="LoginPage" value="Login"/>
+    <phrase id="Logout" class="fas fa-sign-out-alt ew-icon" value="Logout"/><!-- v2022 -->
+    <phrase id="LookupLink" value="Opzoeken - %s" class="fas fa-search ew-icon"/><!-- v2019 -->
+    <phrase id="LookupTitle" value="Opzoeken - %s" client="1"/><!-- v2022 -->
+    <phrase id="MasterDetailCopyLink" value="Master / Detail kopiëren" class="icon-md-copy ew-icon"/><!-- v11 -->
+    <phrase id="MasterDetailEditLink" value="Hoofd- / detail bewerken" class="icon-md-edit ew-icon"/><!-- v11 -->
+    <phrase id="MasterDetailListLink" value="Detaillijst" class="icon-table ew-icon"/><!-- v11 -->
+    <phrase id="MasterDetailViewLink" value="Hoofd- / detailweergave" class="icon-md-view ew-icon"/><!-- v11 -->
+    <phrase id="MasterRecord" value="Hoofdrecord: "/>
+    <phrase id="MaxFileSize" value="Max. bestandsgrootte (%s bytes) overschreden." client="1"/>
+    <phrase id="MessageOK" value="OK" client="1"/>
+    <phrase id="Midnight" value="middernacht" client="1"/><!-- v2017 -->
+    <phrase id="MismatchPassword" value="Mismatch-wachtwoord" client="1"/>
+    <phrase id="MissingDisplayFieldName" value="Ontbrekende weergaveveldnaam"/>
+    <phrase id="MissingDisplayFieldValue" value="Ontbrekende waarde van het weergaveveld"/>
+    <phrase id="MissingLookupTableName" value="Ontbrekende opzoektabelnaam"/>
+    <phrase id="MissingPDFObject" value="Ontbrekend PDFObject" client="1"/><!-- v2020 -->
+    <phrase id="MissingUserLevelID" value="Ontbrekende gebruikersniveau-ID"/>
+    <phrase id="MissingUserLevelName" value="Ontbrekende naam gebruikersniveau"/>
+    <phrase id="MobileMenu" value="Menu"/>
+    <phrase id="More" value="Meer" client="1"/><!-- v2018 -->
+    <phrase id="MultiColumnCards" value="Kaarten view" class="fas fa-th-large ew-icon"/><!-- v2022 -->
+    <phrase id="MultiColumnTable" value="Tabel view" class="fas fa-table ew-icon"/><!-- v2022 -->
+    <phrase id="MultipleMasterDetails" value="Master/Detail" class="icon-master-detail ew-icon"/><!-- v11 -->
+    <phrase id="NOT LIKE" value="bevat geen"/><!-- v11.0.3 -->
+    <phrase id="New" value="Nieuw"/>
+    <phrase id="NewPassword" value="nieuw wachtwoord"/>
+    <phrase id="NewValue" value="Nieuwe waarde"/><!-- v12 -->
+    <phrase id="Next" value="Volgende" client="1"/><!-- v12 -->
+    <phrase id="Next14Days" value="Komende 14 dagen"/>
+    <phrase id="Next30Days" value="Komende 30 dagen"/>
+    <phrase id="Next7Days" value="Komende 7 dagen"/>
+    <phrase id="NextMonth" value="Komende maand"/>
+    <phrase id="NextTwoWeeks" value="Komende twee weken"/>
+    <phrase id="NextWeek" value="Volgende week"/>
+    <phrase id="NextYear" value="Volgend jaar"/>
+    <phrase id="NoAddPermission" value="U bent niet gemachtigd om het record toe te voegen."/>
+    <phrase id="NoAddRecord" value="Geen records toe te voegen" client="1"/>
+    <phrase id="NoChartData" value="Geen gegevens om te tonen" client="1"/><!-- v2020 -->
+    <phrase id="NoDeletePermission" value="U bent niet gemachtigd om de record te verwijderen."/>
+    <phrase id="NoDistinctColVals" value="Geen unieke kolomwaarden voor SQL: "/><!-- v2020 -->
+    <phrase id="NoEditPermission" value="U bent niet gemachtigd om de record te bewerken."/>
+    <phrase id="NoFieldSelected" value="Geen veld geselecteerd voor update" client="1"/>
+    <phrase id="NoHtmlForm" value="HTML formulier niet gevonden"/><!-- v2022 -->
+    <phrase id="NoPermission" value="Je hebt geen toestemming om toegang te krijgen %s."/><!-- v12.0.6 -->
+    <phrase id="NoRecord" value="Geen regels gevonden" client="1"/><!-- v2017 -->
+    <phrase id="NoRecordForKey" value="Geen record gevonden voor sleutel = "/>
+    <phrase id="NoRecordSelected" value="Geen records geselecteerd" client="1"/>
+    <phrase id="NoReportOrCharts" value="Geen rapporten of grafieken beschikbaar voor deze pagina."/><!-- v2020 -->
+    <phrase id="NoSubscription" value="Je hebt geen inschrijvingen" client="1"/><!-- v2022 -->
+    <phrase id="NoSubscriptions" value="Geen inschrijvingen gevonden" client="1"/><!-- v2022 -->
+    <phrase id="NoTableGenerated" value="Geen tabellen gegenereerd"/>
+    <phrase id="NoUserLevel" value="Geen gebruikersniveau-instellingen."/>
+    <phrase id="Noon" value="middag"/><!-- v2017 -->
+    <phrase id="Notice" value="Notitie"/><!-- v2021 -->
+    <phrase id="Notifications" value="Meldingen" class="fas fa-bell ew-icon"/><!-- v2022 -->
+    <phrase id="NotificationsDisabled" value="Meldingen uitgeschakeld" client="1"/><!-- v2022 -->
+    <phrase id="NotificationsEnabled" value="Meldingen ingeschakeld" client="1"/><!-- v2022 -->
+    <phrase id="NullLabel" value="(Null)"/><!-- v2020 -->
+    <phrase id="OKBtn" value="OK" client="1"/><!-- v2021 -->
+    <phrase id="OR" value="of"/>
+    <phrase id="Of" value="of" client="1"/><!-- v2017 -->
+    <phrase id="Old" value="Oud"/>
+    <phrase id="OldPassword" value="Oud wachtwoord"/>
+    <phrase id="OptionAlreadyExist" value="Optie bestaat al"/>
+    <phrase id="OverwriteBtn" value="Overschrijf" client="1"/><!-- v2017 -->
+    <phrase id="OverwriteLink" value="Overschrijf"/>
+    <phrase id="PM" value="PM" client="1"/><!-- v2017 -->
+    <phrase id="Page" value="Pagina" client="1"/><!-- v2017 -->
+    <phrase id="PageNotFound" value="Route '%p' niet gevonden."/><!-- v2021 -->
+    <phrase id="PagerFirst" value="Eerste"/>
+    <phrase id="PagerLast" value="Laatste"/>
+    <phrase id="PagerNext" value="Volgende"/>
+    <phrase id="PagerPrevious" value="Vorige"/>
+    <phrase id="Password" value="Wachtwoord" client="1"/><!-- v2021 -->
+    <phrase id="PasswordChanged" value="Wachtwoord gewijzigd"/>
+    <phrase id="PasswordExpired" value="Wachtwoord verlopen. Wijzig alstublieft het wachtwoord."/>
+    <phrase id="PasswordMask" value="********"/><!-- v12 -->
+    <phrase id="PasswordRequest" value="Wachtwoord aanvraag"/>
+    <phrase id="PasswordStrength" value="Sterkte: %p" client="1"/><!-- v12 -->
+    <phrase id="PasswordTooSimple" value="Je wachtwoord is te eenvoudig" client="1"/><!-- v12 -->
+    <phrase id="Past" value="Verleden"/>
+    <phrase id="Permission" value="Machtigingen" class="icon-user ew-icon"/><!-- v11 -->
+    <phrase id="PermissionAddCopy" value="Toevoegen / kopiëren" client="1"/><!-- v2018 -->
+    <phrase id="PermissionAdmin" value="Admin" client="1"/><!-- v2019 -->
+    <phrase id="PermissionDelete" value="Verwijder" client="1"/><!-- v2018 -->
+    <phrase id="PermissionEdit" value="Bewerk" client="1"/><!-- v2018 -->
+    <phrase id="PermissionImport" value="Importeren" client="1"/><!-- v2020 -->
+    <phrase id="PermissionList" value="Lijst" client="1"/><!-- v2018 -->
+    <phrase id="PermissionListSearchView" value="Lijst/zoek/kijk" client="1"/><!-- v2018 -->
+    <phrase id="PermissionLookup" value="Lookup" client="1"/><!-- v2020 -->
+    <phrase id="PermissionSearch" value="Zoek" client="1"/><!-- v2018 -->
+    <phrase id="PermissionView" value="View" client="1"/><!-- v2018 -->
+    <phrase id="PersonalDataBtn" value="Persoonlijke gegevens"/><!-- v2019 -->
+    <phrase id="PersonalDataContent" value="Uw account bevat persoonlijke gegevens die u ons hebt verstrekt. Op deze pagina kunt u die gegevens downloaden of verwijderen."/><!-- v2019 -->
+    <phrase id="PersonalDataDeleteFailure" value="Er is een onverwachte fout opgetreden bij het verwijderen van de gebruiker"/><!-- v2019 -->
+    <phrase id="PersonalDataDeleteSuccess" value="Persoonlijke gegevens met succes verwijderd"/><!-- v2019 -->
+    <phrase id="PersonalDataTitle" value="Persoonlijke gegevens"/><!-- v2019 -->
+    <phrase id="PersonalDataWarning" value="Als u deze gegevens verwijdert, wordt uw account definitief verwijderd en kan dit niet meer worden hersteld."/><!-- v2019 -->
+    <phrase id="PickDate" value="Kies een datum"/>
+    <phrase id="PleaseSelect" value="Selecteer alstublieft" client="1"/><!-- v12 -->
+    <phrase id="PleaseWait" value="Even geduld aub..." client="1"/>
+    <phrase id="Prev" value="Vorige" client="1"/><!-- v12 -->
+    <phrase id="PrimaryKeyUnspecified" value="Primaire sleutel niet gespecificeerd"/>
+    <phrase id="PrinterFriendly" value="Printervriendelijk" class="icon-print ew-icon"/><!-- v11 -->
+    <phrase id="PrinterFriendlyText" value="Printervriendelijk"/>
+    <phrase id="PrivacyPolicy" value="Privacybeleid"/><!-- v2019 -->
+    <phrase id="PrivacyPolicyContent" value="Gebruik deze pagina om het privacybeleid van uw site te beschrijven."/><!-- v2019 -->
+    <phrase id="PushNotificationDefaultTitle" value="Nieuwe pushnotificatie"/><!-- v2022 -->
+    <phrase id="PushNotificationFailure" value="Pushnotificatie verzenden mislukt (fout = %f)" client="1"/><!-- v2022 -->
+    <phrase id="PushNotificationFormBody" value="Body" client="1"/><!-- v2022 -->
+    <phrase id="PushNotificationFormTitle" value="Titel" client="1"/><!-- v2022 -->
+    <phrase id="PushNotificationSent" value="Pushnotificaties zijn verzonden&lt;br&gt;(succes = %s, fout = %f)" client="1"/><!-- v2022 -->
+    <phrase id="PushNotificationSuccess" value="Alle pushnotificaties zijn verzonden (succes = %s)" client="1"/><!-- v2022 -->
+    <phrase id="QuickSearch" value="Snelzoeken"/>
+    <phrase id="QuickSearchAll" value="Alle sleutelwoorden" client="1"/><!-- v11 -->
+    <phrase id="QuickSearchAllShort" value="Alles" client="1"/><!-- v11 -->
+    <phrase id="QuickSearchAny" value="Alle zoekwoorden" client="1"/><!-- v11 -->
+    <phrase id="QuickSearchAnyShort" value="Ieder" client="1"/><!-- v11 -->
+    <phrase id="QuickSearchAuto" value="Auto" client="1"/><!-- v11 -->
+    <phrase id="QuickSearchAutoShort" value="" client="1"/><!-- v11 -->
+    <phrase id="QuickSearchBtn" value="Zoek"/>
+    <phrase id="QuickSearchExact" value="Exacte overeenkomst" client="1"/><!-- v11 -->
+    <phrase id="QuickSearchExactShort" value="Exact" client="1"/><!-- v11 -->
+    <phrase id="Recipient" value="Ontvanger(s)" client="1"/><!-- v2021 -->
+    <phrase id="Record" value="Records" client="1"/><!-- v2017 -->
+    <phrase id="RecordChangedByOtherUser" value="Gegevens zijn gewijzigd door andere gebruiker. Klik op [Opnieuw laden] om de gewijzigde gegevens op te halen (uw gegevens in het formulier worden overschreven) of klik op [Overschrijven] om de gewijzigde gegevens te overschrijven."/>
+    <phrase id="RecordDeleted" value="record(s) verwijderd"/>
+    <phrase id="RecordInserted" value="record(s) ingevoegd"/>
+    <phrase id="RecordUpdated" value="record(s) bijgewerkt"/>
+    <phrase id="RecordsPerPage" value="Pagina grootte" client="1"/><!-- v2017 -->
+    <phrase id="Register" value="Registreren"/>
+    <phrase id="RegisterBtn" value="Registreren"/>
+    <phrase id="RegisterPage" value="Registratie"/>
+    <phrase id="RegisterSuccess" value="Registratie gelukt"/>
+    <phrase id="RegisterSuccessActivate" value="Registratie gelukt. Er is een e-mail verzonden naar uw e-mailadres. Klik op de link in de e-mail om uw account te activeren."/>
+    <phrase id="RelatedRecordExists" value="U kunt een record niet verwijderen omdat gerelateerde records bestaan ​​in de detailtabel '%t'"/>
+    <phrase id="RelatedRecordRequired" value="U kunt een record niet toevoegen of bijwerken omdat de waarde van de vreemde sleutel niet in de hoofdtabel voorkomt '%t'"/>
+    <phrase id="ReloadBtn" value="Vernieuwen" client="1"/><!-- v2017 -->
+    <phrase id="ReloadLink" value="Vernieuwen"/>
+    <phrase id="RememberMe" value="Onthoud mij"/>
+    <phrase id="Remove" value="Verwijderen"/>
+    <phrase id="Replace" value="Vervangen"/>
+    <phrase id="Report" value="Verslag doen van"/>
+    <phrase id="RequestPwd" value="Verzoek om wachtwoord"/><!-- v2018 -->
+    <phrase id="RequestPwdMsg" value="Verzoek om wachtwoord"/><!-- v2019 -->
+    <phrase id="ResendRegisterEmailBtn" value="Stuur registratie-e-mail opnieuw"/><!-- v12 -->
+    <phrase id="ResendRegisterEmailFailure" value="Opnieuw verzenden van register-e-mail mislukt voor gebruiker '% u' "/><!-- v12 -->
+    <phrase id="ResendRegisterEmailSuccess" value="Registratie e-mail voor gebruiker '%u' is opnieuw verzonden"/><!-- v12 -->
+    <phrase id="Reset" value="Reset"/>
+    <phrase id="ResetAllFilter" value="Reset alle filters" class="icon-reset-search ew-icon"/><!-- v2020 -->
+    <phrase id="ResetConcurrentUserBtn" value="Reset gelijktijdige gebruikerssessie"/><!-- v12 -->
+    <phrase id="ResetConcurrentUserFailure" value="Kan sessie niet opnieuw instellen voor gebruiker '% u'"/><!-- v12 -->
+    <phrase id="ResetConcurrentUserSuccess" value="Sessie voor gebruiker '% u' is gereset"/><!-- v12 -->
+    <phrase id="ResetLoginRetryBtn" value="Reset login pogingen teller"/><!-- v12 -->
+    <phrase id="ResetLoginRetryBtn" value="Reset login pogingen teller"/><!-- v12 -->
+    <phrase id="ResetLoginRetryFailure" value="Het opnieuw instellen van het nieuwe aantal keren proberen mislukt voor gebruiker '% u' is mislukt"/><!-- v12 -->
+    <phrase id="ResetLoginRetrySuccess" value="Inloggen opnieuw proberen tellen voor gebruiker '% u' is opnieuw ingesteld"/><!-- v12 -->
+    <phrase id="ResetPassword" value="Reset Password" client="1"/><!-- v2020 -->
+    <phrase id="ResetPasswordResponse" value="Je zult snel instructies ontvangen om het wachtwoord te herstellen wanneer jouw mailadres bekend is."/><!-- v2019 -->
+    <phrase id="ResetPwd" value="Reset Wachtwoord"/><!-- v2020 -->
+    <phrase id="ResetPwdMsg" value="Reset Wachtwoord"/><!-- v2020 -->
+    <phrase id="ResetSearch" value="Reset"/>
+    <phrase id="ResetSearchBtn" value="Reset" class="icon-reset-search ew-icon"/><!-- v11 -->
+    <phrase id="ResetUserSecretBtn" value="Reset gebruikersgeheim"/><!-- v2022 -->
+    <phrase id="ResetUserSecretFailure" value="Reset van gebruikersgeheim voor gebruiker '%u' mislukt"/><!-- v2022 -->
+    <phrase id="ResetUserSecretSuccess" value="Gebruikersgeheim voor gebruiker '%u' is gereset"/><!-- v2022 -->
+    <phrase id="RptAvg" value="Gemiddelde"/>
+    <phrase id="RptCnt" value="Aantal"/><!-- v2020 -->
+    <phrase id="RptDtlRec" value="Detailrecords"/>
+    <phrase id="RptGrandSummary" value="Eindoverzicht"/><!-- v2020 -->
+    <phrase id="RptGrandTotal" value="Eindtotaal"/>
+    <phrase id="RptMax" value="Maximum"/>
+    <phrase id="RptMin" value="Minimum"/>
+    <phrase id="RptPageSummary" value="Pagina samenvatting"/><!-- v2020 -->
+    <phrase id="RptSum" value="Som"/>
+    <phrase id="RptSumHead" value="Samenvatting voor %c: %v"/><!-- v2020 -->"
+    <phrase id="STARTS WITH" value="begint met"/>
+    <phrase id="SaveBtn" value="Opslaan" client="1"/><!-- v2018 -->
+    <phrase id="SaveCurrentFilter" value="Bewaar huidig ​​filter"/><!-- v12 -->
+    <phrase id="SaveUserName" value="Bewaar mijn gebruikersnaam"/><!-- Deprecated since v2018 -->
+    <phrase id="Scan2FAQrCode" value="Scan na het installeren van de Google Authenticator bovenstaande QR Code en voer de verificatiecode in" client="1"/><!-- v2022 -->
+    <phrase id="Search" value="Zoeken" client="1"/><!-- v2017 -->
+    <phrase id="SearchBtn" value="Zoeken" client="1"/><!-- v2018 -->
+    <phrase id="SearchLink" value="Zoeken" class="fas fa-search ew-icon"/><!-- v2019 -->
+    <phrase id="SearchPanel" value="Zoekenpaneel"/><!-- v11 -->
+    <phrase id="SecurityCode" value="Security code" client="1"/><!-- v2022 -->
+    <phrase id="SecurityCodeVerified" value="Security code geverifieerd, doorsturen..." client="1"/><!-- v2022 -->
+    <phrase id="SelectAll" value="Selecteer alles"/><!-- v2022 -->
+    <phrase id="SelectBtn" value="Selecteer" client="1"/><!-- v2017 -->
+    <phrase id="SelectBtn" value="Selecteer" client="1"/><!-- v2017 -->
+    <phrase id="SendEmailBtn" value="Verstuur"/>
+    <phrase id="SendEmailSuccess" value="E-mail met succes verzonden" client="1"/>
+    <phrase id="SendPushNotification" value="Verstuur pushnotificaties" class="fas fa-bell ew-icon" client="1"/><!-- v2022 -->
+    <phrase id="SendPushNotificationBtn" value="Verstuur"/><!-- v2022 -->
+    <phrase id="SendPushNotificationsToAll" value="Geen inschrijvingen geselecteerd. Pushnotificaties naar alles sturen?" client="1"/><!-- v2022 -->
+    <phrase id="SendPwd" value="Send" client="1"/><!-- v2020 -->
+    <phrase id="SendPwd" value="Verstuur" client="1"/><!-- v2020 -->
+    <phrase id="Sender" value="Afzender" client="1"/><!-- v2021 -->
+    <phrase id="SequenceNumber" value="%s."/>
+    <phrase id="ServerCommunicationError" value="Er is een fout opgetreden tijdens het communiceren met de server." client="1"/><!-- v2022 -->
+    <phrase id="ServerError" value="Er is een interne fout opgetreden bij het uitvoeren van het verzoek."/><!-- v2021 -->
+    <phrase id="SessionExpired" value="Uw sessie is verlopen." client="1"/><!-- v12 -->
+    <phrase id="SessionWillExpire" value="Uw sessie verloopt over% s seconden. Klik op OK om door te gaan met uw sessie." client="1"/><!-- v12 -->
+    <phrase id="SetPasswordExpiredBtn" value="Stel wachtwoord in vervallen"/><!-- v12 -->
+    <phrase id="SetPasswordExpiredFailure" value="Kan het wachtwoord voor gebruiker '%u' niet als verlopen instellen"/><!-- v12 -->
+    <phrase id="SetPasswordExpiredSuccess" value="Wachtwoord voor gebruiker '%u' is ingesteld als verlopen"/><!-- v12 -->
+    <phrase id="ShowAll" value="Toon alles"/><!-- v11 -->
+    <phrase id="ShowAllBtn" value="Toon alles" class="icon-reset-search ew-icon"/><!-- v11 -->
+    <phrase id="SortDown" value="Aflopend" class="fas fa-sort-down" client="1"/><!-- v2022 -->
+    <phrase id="SortUp" value="Oplopend" class="fas fa-sort-up" client="1"/><!-- v2022 -->
+    <phrase id="SrchLegend" value=""/>
+    <phrase id="Subject" value="Onderwerp" client="1"/><!-- v2021 -->
+    <phrase id="Success" value="Succes" client="1"/><!-- v2020 -->
+    <phrase id="Summary" value="Samenvatting"/><!-- v2020 -->
+    <phrase id="SummaryColon" value=": "/><!-- v2020 -->
+    <phrase id="Table" value="TABEL"/>
+    <phrase id="TableOrView" value="Tabellen" client="1"/><!-- v2018 -->
+    <phrase id="Tables" value="Tabellen" client="1"/><!-- v2022 -->
+    <phrase id="TblTypeCUSTOMVIEW" value="Aangepaste weergave: "/>
+    <phrase id="TblTypeREPORT" value="Rapport: "/>
+    <phrase id="TblTypeTABLE" value="Tabel: "/>
+    <phrase id="TblTypeVIEW" value="View: "/>
+    <phrase id="ThisMonth" value="Deze maand"/>
+    <phrase id="ThisWeek" value="Deze week"/>
+    <phrase id="ThisYear" value="Dit jaar"/>
+    <phrase id="To" value="aan"/>
+    <phrase id="Today" value="Vandaag"/>
+    <phrase id="Tomorrow" value="Morgen"/>
+    <phrase id="Top" value="Top"/><!-- v2020 -->
+    <phrase id="Total" value="Totaal"/>
+    <phrase id="UnauthorizedMasterUserID" value="De huidige gebruiker (% c) heeft geen toestemming om de record in te voegen. Hoofdfilter: %f"/>
+    <phrase id="UnauthorizedParentUserID" value="De huidige gebruiker (% c) is niet gemachtigd om de bovenliggende gebruikers-ID (% p) toe te wijzen."/>
+    <phrase id="UnauthorizedUserID" value="De huidige gebruiker (% c) is niet gemachtigd om de gebruikers-ID toe te wijzen (% u)."/>
+    <phrase id="UnsupportedBrowser" value="Jouw browser ondersteunt deze pagina niet" client="1"/><!-- v2021 -->
+    <phrase id="Update" value="Bijwerken"/>
+    <phrase id="UpdateBtn" value="Bijwerken" client="1"/><!-- v2017 -->
+    <phrase id="UpdateCancelled" value="Update geannuleerd"/>
+    <phrase id="UpdateFailed" value="Update mislukt"/>
+    <phrase id="UpdateLink" value="Bijwerken" class="fas fa-check ew-icon"/><!-- v2019 -->
+    <phrase id="UpdateSelectAll" value="Selecteer alles"/><!-- v11 -->
+    <phrase id="UpdateSelectedLink" value="Geselecteerde records bijwerken" class="icon-edit ew-icon"/><!-- v11 -->
+    <phrase id="UpdateSomeRecordsFailed" value="Update mislukt voor records met sleutel: %k"/><!-- v2022 -->
+    <phrase id="UpdateSuccess" value="Update geslaagd"/>
+    <phrase id="UploadCancel" value="Annuleren" client="1"/>
+    <phrase id="UploadDelete" value="Verwijder" client="1"/>
+    <phrase id="UploadErrMsg1" value="Het geüploade bestand overschrijdt de upload_max_filesize-instelling in php.ini"/>
+    <phrase id="UploadErrMsg2" value="Het geüploade bestand overschrijdt de MAX_FILE_SIZE-instelling die is opgegeven in het HTML-formulier"/>
+    <phrase id="UploadErrMsg3" value="Het geüploade bestand is slechts gedeeltelijk geüpload"/>
+    <phrase id="UploadErrMsg4" value="Er is geen bestand geüpload"/>
+    <phrase id="UploadErrMsg6" value="Ontbreekt een tijdelijke map"/>
+    <phrase id="UploadErrMsg7" value="Kan het bestand niet naar schijf schrijven"/>
+    <phrase id="UploadErrMsg8" value="Een PHP-extensie stopte het uploaden van het bestand"/>
+    <phrase id="UploadErrMsgAcceptFileTypes" value="Bestandstype niet toegestaan" client="1"/>
+    <phrase id="UploadErrMsgMaxFileLength" value="De totale lengte van bestandsnamen overschrijdt de veldlengte" client="1"/>
+    <phrase id="UploadErrMsgMaxFileSize" value="Bestand is te groot" client="1"/>
+    <phrase id="UploadErrMsgMaxHeight" value="Afbeelding overschrijdt de maximale hoogte"/>
+    <phrase id="UploadErrMsgMaxNumberOfFiles" value="Maximum aantal bestanden overschreden" client="1"/>
+    <phrase id="UploadErrMsgMaxWidth" value="Afbeelding overschrijdt de maximale breedte"/>
+    <phrase id="UploadErrMsgMinFileSize" value="Bestand is te klein" client="1"/>
+    <phrase id="UploadErrMsgMinHeight" value="Beeld vereist een minimale hoogte"/>
+    <phrase id="UploadErrMsgMinWidth" value="Beeld vereist een minimale breedte"/>
+    <phrase id="UploadErrMsgPostMaxSize" value="Het geüploade bestand overschrijdt de post_max_size-instructie in php.ini"/>
+    <phrase id="UploadOverwrite" value="Oud bestand overschrijven?" client="1"/>
+    <phrase id="UploadStart" value="Start" client="1"/>
+    <phrase id="Uploading" value="Uploaden..." client="1"/>
+    <phrase id="UserAdministrator" value="Beheerder" client="1"/><!-- v12 -->
+    <phrase id="UserAnonymous" value="Anoniem" client="1"/><!-- v12 -->
+    <phrase id="UserDefault" value="Standaard" client="1"/><!-- v12 -->
+    <phrase id="UserEmail" value="E-mail"/>
+    <phrase id="UserExists" value="Gebruiker bestaat al"/>
+    <phrase id="UserLevel" value="Gebruikers level: "/>
+    <phrase id="UserLevelAdministratorName" value="De naam van het gebruikersniveau voor gebruikersniveau -1 moet 'Beheerder' zijn" client="1"/>
+    <phrase id="UserLevelAnonymousName" value="De naam van het gebruikersniveau voor gebruikersniveau -2 moet 'Anoniem' zijn" client="1"/><!-- v12 -->
+    <phrase id="UserLevelDefaultName" value="De naam van het gebruikersniveau voor gebruikersniveau 0 moet 'Standaard' zijn" client="1"/>
+    <phrase id="UserLevelIDIncorrect" value="Door de gebruiker gedefinieerde gebruikersniveau-ID moet groter zijn dan 0" client="1"/>
+    <phrase id="UserLevelIDInteger" value="User Level ID moet een heel getal zijn" client="1"/>
+    <phrase id="UserLevelNameIncorrect" value="Door gebruiker gedefinieerde gebruikersniveau naam kan niet 'Anoniem', 'Beheerder' of 'Standaard' zijn" client="1"/>
+    <phrase id="UserLevelPermission" value="Gebruikersniveau Permissies"/>
+    <phrase id="UserLoggedIn" value="Gebruiker '%u' al ingelogd"/>
+    <phrase id="UserName" value="Gebruikersnaam"/>
+    <phrase id="UserNotFound" value="Gebruiker '%u' niet gevonden"/><!-- v2018 -->
+    <phrase id="UserProfileCorrupted" value="Gebruikersprofiel is beschadigd. Log uit en log opnieuw in"/>
+    <phrase id="ValueNotExist" value="Waarde bestaat niet" client="1"/><!-- v11 -->
+    <phrase id="Verify" value="Verifieer" client="1"/><!-- v2022 -->
+    <phrase id="View" value="View"/>
+    <phrase id="ViewImageGallery" value="Klik om de afbeelding te bekijken"/><!-- v12 -->
+    <phrase id="ViewLink" value="View" class="icon-view ew-icon"/><!-- v11 -->
+    <phrase id="ViewPageAddLink" value="Toevoegen" class="fas fa-plus ew-icon"/><!-- v2019 -->
+    <phrase id="ViewPageCopyLink" value="Kopiëren" class="icon-copy ew-icon"/><!-- v11 -->
+    <phrase id="ViewPageDeleteLink" value="Verwijder" class="fas fa-trash ew-icon"/><!-- v2019 -->
+    <phrase id="ViewPageDetailLink" value=""/>
+    <phrase id="ViewPageEditLink" value="Bewerk" class="icon-edit ew-icon"/><!-- v11 -->
+    <phrase id="Warning" value="Waarschuwing" client="1"/><!-- v2020 -->
+    <phrase id="Week" value="Week"/><!-- v2020 -->
+    <phrase id="WrongFileType" value="File type is not allowed." client="1"/>
+    <phrase id="Year" value="Jaar"/><!-- v2020 -->
+    <phrase id="Yesterday" value="Gisteren"/>
+<!-- Advanced Filter --><!-- v2020 -->
+<!-- Exceptions --><!-- v2021 -->
+    <phrase id="400" value="Onjuist verzoek"/>
+    <phrase id="400Desc" value="De server kan of wil het verzoek niet verwerken door een duidelijke client-fout."/>
+    <phrase id="401" value="Niet geauthoriseerd"/>
+    <phrase id="401Desc" value="Het verzoek vereist correcte authenticatie."/>
+    <phrase id="403" value="Verboden"/>
+    <phrase id="403Desc" value="Het is niet toegestaan om dit verzoek uit te voeren."/>
+    <phrase id="404" value="Niet gevonden"/>
+    <phrase id="404Desc" value="De verzochte bron is niet gevonden. Controleer de URL en probeer opnieuw."/>
+    <phrase id="405" value="Methode Niet toegestaan"/>
+    <phrase id="405Desc" value="De verzochte methode is niet toegestaan voor de verzochte bron."/>
+    <phrase id="500" value="Interne Serverfout"/>
+    <phrase id="500Desc" value="Onverwachte conditie tegengekomen waardoor de server het verzoek niet kan vervullen."/>
+    <phrase id="501" value="Niet geïmplementeerd"/>
+    <phrase id="501Desc" value="De server ondersteunt de functionaliteit niet om het verzoek te vervullen."/>
+<!-- Select2 --><!-- v2022 -->
+    <phrase id="ErrorLoading" value="De resultaten konden niet geladen worden." client="1"/>
+    <phrase id="InputTooLong" value="Verwijder aub. %s teken(s)" client="1"/>
+    <phrase id="InputTooShort" value="Voer %s of meer tekens in" client="1"/>
+    <phrase id="LoadingMore" value="Meer laden..." class="spinner-border spinner-border-sm text-primary" client="1"/>
+    <phrase id="MaximumSelected" value="Je kunt slechts %s item(s) selecteren" client="1"/>
+    <phrase id="NoResults" value="Geen resultaten gevonden" client="1"/>
+    <phrase id="Searching" value="Zoeken..." class="spinner-border spinner-border-sm text-primary" client="1"/>
+    <phrase id="RemoveAllItems" value="Verwijder alle items" client="1"/>
+    <phrase id="RemoveItem" value="Verwijder item" client="1"/>
+</global>
+</ew-language>
